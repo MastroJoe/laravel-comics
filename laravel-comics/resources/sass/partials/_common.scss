@@ -1,22 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-body {
-  position: relative;
-}
-
-a:-webkit-any-link {
-  text-decoration: none !important;
-}
-
-ul li {
-  list-style: none;
-}
-
+// containers
 .container {
   width: 65%;
   margin: 0 auto;
@@ -39,6 +21,7 @@ ul li {
   height: 120px;
 }
 
+// text
 .upper {
   text-transform: uppercase;
 }
@@ -52,9 +35,11 @@ ul li {
 }
 
 hr {
-  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgba(0,0,0,.1);
 }
 
+// Padding
+// Padding top bottom
 .ptb-5 {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -90,11 +75,11 @@ hr {
   padding-bottom: 50px;
 }
 
+// Padding left right
 .plr-5 {
   padding-left: 5px;
   padding-right: 5px;
 }
-
 .plr-10 {
   padding-left: 10px;
   padding-right: 10px;
@@ -120,6 +105,7 @@ hr {
   padding-right: 30px;
 }
 
+// Padding right
 .pr-5 {
   padding-right: 5px;
 }
@@ -144,10 +130,10 @@ hr {
   padding-right: 30px;
 }
 
+// Padding bottom
 .pb-5 {
   padding-bottom: 5px;
 }
-
 .pb-10 {
   padding-bottom: 10px;
 }
@@ -172,6 +158,8 @@ hr {
   padding-bottom: 50px;
 }
 
+
+// Padding top
 .pt-5 {
   padding-top: 5px;
 }
@@ -200,15 +188,18 @@ hr {
   padding-top: 40px;
 }
 
+// Margin left-right
 .mlr-5 {
   margin-left: 5px;
   margin-right: 5px;
 }
 
+// Margin right
 .mr-300 {
   margin-right: 300px;
 }
 
+// Margin left
 .ml-10 {
   margin-left: 10px;
 }
@@ -221,6 +212,7 @@ hr {
   margin-left: 70px;
 }
 
+// Margin top
 .mt-15 {
   margin-top: 15px;
 }
@@ -245,6 +237,7 @@ hr {
   margin-top: 120px;
 }
 
+// Margin top bottom
 .mtb-30 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -269,4 +262,3 @@ hr {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-
