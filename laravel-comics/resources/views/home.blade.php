@@ -11,7 +11,14 @@
 
   </div>
   <!-- card section -->
-  
+  <div class="container-fluid">
+    <div class="container card-container">
+      <div class="card">
+        <img src="" alt="">
+        <h3></h3>
+      </div>
+    </div>
+  </div>
 </main>
 @endsection
 
