@@ -2,9 +2,7 @@
 
 @section('main')
 
-<div class="container">
-
-</div>
+<p>HOME</p>
 
 @endsection
 
