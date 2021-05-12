@@ -3,6 +3,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: $font_p;
 }
 
 body {
@@ -13,6 +14,8 @@ a:-webkit-any-link {
 text-decoration:none !important;
 }
 
-ul li {
+dl, ol, ul, li {
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
 }

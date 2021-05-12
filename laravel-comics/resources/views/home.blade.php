@@ -1,9 +1,18 @@
 @extends('layouts.app')
 
 @section('main')
+<main class="container-fluid">
+  <!-- jumbo -->
+  <div class="jumbo container-fluid">
+    <img src="" alt="">
+  </div>
+  <!-- title -->
+  <div class="title">
 
-<p>HOME</p>
-
+  </div>
+  <!-- card section -->
+  
+</main>
 @endsection
 
 

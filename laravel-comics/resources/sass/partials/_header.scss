@@ -1,2 +1,49 @@
 header {
+  .header-top {
+    height: 30px;
+    background-color: $color-primary;
+    .container {
+      height: 100%;
+      .links {
+        display: flex;
+        justify-content: flex-end;
+        li {
+          a {
+            text-align: center;
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+  .header-bottom {
+    height: 120px;
+    background-color: $color-white;
+    .container {
+      height: 100%;
+      @include flex-center-between;
+      .logo {
+        img {
+          cursor:pointer;
+        }
+      }
+      .navbar {
+        .link {
+          padding: 0 9px;
+          font-weight: bold;
+          a {
+            color: $color-secondary;
+          }
+        }
+      }
+      .search {
+        input {
+          width: 150px;
+        }
+        i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
