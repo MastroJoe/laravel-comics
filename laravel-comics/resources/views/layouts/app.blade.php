@@ -8,27 +8,20 @@
 
     </head>
     <body>
-      <header>
-
-
-        <div class="links">
-            <a href="https://laravel.com/docs">Docs</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://blog.laravel.com">Blog</a>
-            <a href="https://nova.laravel.com">Nova</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://vapor.laravel.com">Vapor</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
-        </div>
-
-
-      </header>
+      @include(partials.header)
       <main>
         @yield('main')
       </main>
-      <footer>
-
-      </footer>
+      @include(partials.footer)
     </body>
 </html>
+
+
+<!-- Descrizione
+Create un nuovo progetto Laravel, su cui lavoreremo sia oggi che domani.
+Oggi concentratevi sul layout:
+create un file di layout in cui inserire la struttura comune di tutte
+le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer
+tramite due partials.
+Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file
+inserito nella cartella config e abbellite il tutto sfruttando Sass. -->
