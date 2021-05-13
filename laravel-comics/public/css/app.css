@@ -321,6 +321,7 @@ header .header-top .container .links {
 header .header-top .container .links li a {
   text-align: center;
   color: #ffffff;
+  font-size: 12px;
 }
 
 header .header-bottom {
@@ -335,7 +336,13 @@ header .header-bottom .container {
   align-items: center;
 }
 
+header .header-bottom .container .logo {
+  width: 80px;
+  height: 80px;
+}
+
 header .header-bottom .container .logo img {
+  width: 100%;
   cursor: pointer;
 }
 
@@ -348,9 +355,15 @@ header .header-bottom .container .navbar .link a {
   color: #464646;
 }
 
+header .header-bottom .container .search {
+  border-bottom: 2px solid;
+  border-color: #0282f9;
+}
+
 header .header-bottom .container .search input {
-  width: 150px;
+  width: 110px;
   text-align: right;
+  outline: none;
 }
 
 header .header-bottom .container .search i {

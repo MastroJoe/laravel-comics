@@ -11,6 +11,7 @@ header {
           a {
             text-align: center;
             color: $color-white;
+            font-size: 12px;
           }
         }
       }
@@ -23,7 +24,10 @@ header {
       height: 100%;
       @include flex-center-between;
       .logo {
+        width: 80px;
+        height: 80px;
         img {
+          width: 100%;
           cursor:pointer;
         }
       }
@@ -37,9 +41,12 @@ header {
         }
       }
       .search {
+        border-bottom: 2px solid;
+        border-color: $color-primary;
         input {
-          width: 150px;
+          width: 110px;
           text-align: right;
+          outline: none;
         }
         i {
           cursor: pointer;

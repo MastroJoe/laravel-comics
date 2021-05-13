@@ -12,7 +12,7 @@
       <div class="container">
         <!-- logo -->
         <div class="logo">
-          <img src="../public/images/dc-logo.png" alt="logo">
+          <img src="/images/dc-logo.png" alt="logo">
         </div>
         <!-- navbar menu -->
         <ul class="navbar">
