@@ -2,18 +2,20 @@
 
 @section('main')
 <main class="container-fluid">
-  <!-- title -->
-  <div class="section">
-
-  </div>
+  <!-- title section -->
+  <!-- <div class="title">
+    <h1 class="upper"></h1>
+  </div> -->
   <!-- card section -->
   <div class="container-center card-container">
     <!-- stampo tutte le cards con foreach -->
-    @foreach ($comics as $comic)
-    <div class="card pt-50">
-      <img class="cover" src="{{ $comic['thumb'] }}" alt="thumb">
-      <h4 class="upper title pt-20"><a href="#">{{ $comic['series'] }}</a></h4>
-    </div>
+    @foreach ($comics as $index => $comic)
+      <div class="card pt-50">
+        <a href="{{ route('detail', ['id' => $index]) }}">
+          <img class="cover" src="{{ $comic['thumb'] }}" alt="thumb">
+        </a>
+        <h4 class="upper title pt-20"><a href="#">{{ $comic['series'] }}</a></h4>
+      </div>
     @endforeach
   </div>
   <!-- button -->

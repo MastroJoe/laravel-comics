@@ -3,19 +3,11 @@
 @section('main')
 <main class="container-fluid">
   <!-- title section -->
-  <div class="title">
+  <!-- <div class="title">
     <h1 class="upper"></h1>
-  </div>
-  <!-- card section -->
-  <div class="container card-container">
-    <!-- stampo tutte le cards con foreach -->
-    @foreach ($comics as $comic)
-    <div class="card">
-      <img src="{{ $comic['thumb'] }}" alt="thumb">
-      <h4 class="upper">{{ $comic['series'] }}</h4>
-    </div>
-    @endforeach
-  </div>
+  </div> -->
+  
+
 </main>
 @endsection
 

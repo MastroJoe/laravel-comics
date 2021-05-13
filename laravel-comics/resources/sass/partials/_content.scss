@@ -9,9 +9,11 @@ main {
     .card {
       width: calc(100% / 6 - 20px);
       margin: 0 10px;
-      .cover {
-        height: 200px;
-        overflow: hidden;
+      a {
+        .cover {
+          height: 200px;
+          overflow: hidden;
+        }
       }
       .title {
         a {

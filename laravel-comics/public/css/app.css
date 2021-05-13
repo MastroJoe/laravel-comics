@@ -417,7 +417,7 @@ main .card-container .card {
   margin: 0 10px;
 }
 
-main .card-container .card .cover {
+main .card-container .card a .cover {
   height: 200px;
   overflow: hidden;
 }

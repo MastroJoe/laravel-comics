@@ -18,6 +18,7 @@ Route::get('/', function () {
 })->name('home');
 
 // pagina detail comics
-Route::get('/single/{id}', function () {
-    return view('single');
+Route::get('/single/{id}', function ($id) {
+    $comics = config('comics');
+    return view('single')->with('comic', $comics[$id]);
 })->name('detail');
