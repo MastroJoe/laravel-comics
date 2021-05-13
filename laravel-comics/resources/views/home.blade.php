@@ -1,27 +1,29 @@
 @extends('layouts.app')
 
 @section('main')
-<main class="container-fluid">
-  <!-- title section -->
-  <!-- <div class="title">
-    <h1 class="upper"></h1>
-  </div> -->
-  <!-- card section -->
-  <div class="container-center card-container">
-    <!-- stampo tutte le cards con foreach -->
-    @foreach ($comics as $index => $comic)
-      <div class="card pt-50">
-        <a href="{{ route('detail', ['id' => $index]) }}">
-          <img class="cover" src="{{ $comic['thumb'] }}" alt="thumb">
-        </a>
-        <h4 class="upper title pt-20"><a href="#">{{ $comic['series'] }}</a></h4>
-      </div>
-    @endforeach
-  </div>
-  <!-- button -->
-  <div class="button-container container-fluid">
-    <button class="button button1"><a class="upper" href="#">load more</a></button>
-  </div>
+<main>
+  <section class="container-fluid bg-gray">
+    <!-- title section -->
+    <!-- <div class="title">
+      <h1 class="upper"></h1>
+    </div> -->
+    <!-- card section -->
+    <div class="container-center card-container">
+      <!-- stampo tutte le cards con foreach -->
+      @foreach ($comics as $index => $comic)
+        <div class="card pt-50">
+          <a href="{{ route('detail', ['id' => $index]) }}">
+            <img class="cover" src="{{ $comic['thumb'] }}" alt="thumb">
+          </a>
+          <h4 class="upper title pt-20"><a href="#">{{ $comic['series'] }}</a></h4>
+        </div>
+      @endforeach
+    </div>
+    <!-- button -->
+    <div class="button-container container-fluid">
+      <button class="button button1"><a class="upper" href="#">load more</a></button>
+    </div>
+  </section>
 </main>
 @endsection
 

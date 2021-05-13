@@ -402,58 +402,255 @@ header .jumbo {
   background-repeat: no-repeat;
 }
 
-main {
+main .bg-gray {
   background-color: #464646;
 }
 
-main .card-container {
+main .bg-gray .card-container {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-main .card-container .card {
+main .bg-gray .card-container .card {
   width: calc(100% / 6 - 20px);
   margin: 0 10px;
 }
 
-main .card-container .card a .cover {
+main .bg-gray .card-container .card a .cover {
   height: 200px;
   overflow: hidden;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-main .card-container .card .title a {
+main .bg-gray .card-container .card .title a {
   text-align: center;
   color: #ffffff;
   font-size: 15px;
 }
 
-main .card-container .card .title a:hover {
+main .bg-gray .card-container .card .title a:hover {
   color: #0282f9;
 }
 
-main .button-container {
+main .bg-gray .button-container {
   display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 
-main .button-container .button1 {
+main .bg-gray .button-container .button1 {
   color: #ffffff;
 }
 
-main .button-container .button1 a {
+main .bg-gray .button-container .button1 a {
   color: #ffffff;
   font-weight: bold;
   font-size: 15px;
 }
 
-main .button-container .button1:hover {
+main .bg-gray .button-container .button1:hover {
   background-color: #ffffff;
   color: #0282f9;
 }
 
-main .button-container .button1:hover a {
+main .bg-gray .button-container .button1:hover a {
   color: #0282f9;
+}
+
+main section .container .thumb {
+  position: relative;
+}
+
+main section .container .thumb .content-thumb {
+  position: absolute;
+  top: -260px;
+}
+
+main section .container .thumb .content-thumb img {
+  width: 220px;
+}
+
+main section {
+  background-color: #ffffff;
+}
+
+main section .bg-blue {
+  height: 100px;
+  background-color: #0282f9;
+}
+
+main section .bg-blue .banner .content-banner ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section .bg-blue .banner .content-banner ul li {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+main section .bg-blue .banner .content-banner ul li:nth-child(4) img {
+  width: 32px;
+}
+
+main section .bg-blue .banner .content-banner ul li img {
+  width: 40px;
+  padding-right: 10px;
+}
+
+main section .bg-blue .banner .content-banner ul li h4 {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+main section .container .description .info-description {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+main section .container .description .info-description .content-left {
+  padding-right: 20px;
+}
+
+main section .container .description .info-description .content-left .title h1 {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+main section .container .description .info-description .content-left .banner {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+main section .container .description .info-description .content-left .banner .price span {
+  color: #ffffff;
+}
+
+main section .container .description .info-description .content-left .banner .price span:first-child {
+  font-weight: lighter;
+}
+
+main section .container .description .info-description .content-left .banner .availability span {
+  color: #ffffff;
+}
+
+main section .container .description .info-description .content-left .banner .availability span:first-child {
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+main section .container .description .info-description .content-left .description {
+  padding: 15px 0;
+}
+
+main section .container .description .info-description .content-left .description p {
+  color: #464646;
+  opacity: 0.8;
+}
+
+main section .container .description .info-description .content-right .advertisement h5 {
+  text-align: right;
+  color: #464646;
+}
+
+main section .container .description .info-description .content-right .advertisement .img-advertisement img {
+  width: 250px;
+}
+
+main section .container .info-comic {
+  padding-bottom: 70px;
+}
+
+main section .container .info-comic .content-info-comic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main section .container .info-comic .content-info-comic .left-info-comic {
+  width: 45%;
+  padding-right: 10px;
+}
+
+main section .container .info-comic .content-info-comic .left-info-comic h4 {
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .left-info-comic .specific-info .art-info {
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .left-info-comic .specific-info .written-info {
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .right-info-comic {
+  width: 45%;
+  padding-left: 10px;
+}
+
+main section .container .info-comic .content-info-comic .right-info-comic h4 {
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .right-info-comic .specific-info .series {
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .right-info-comic .specific-info .price {
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .info-comic .content-info-comic .right-info-comic .specific-info .date {
+  padding: 10px 0;
+  border-bottom: 1px solid #eae8e6;
+}
+
+main section .container .banner-comic .content-banner-comic {
+  display: flex;
+  justify-content: center;
+}
+
+main section .container .banner-comic .content-banner-comic .card-banner-comic {
+  width: calc(100% / 4);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-left: 1px solid #eae8e6;
+}
+
+main section .container .banner-comic .content-banner-comic .card-banner-comic:last-child {
+  border-right: 1px solid #eae8e6;
+}
+
+main section .container .banner-comic .content-banner-comic .card-banner-comic span {
+  text-transform: uppercase;
+  color: #464646;
+}
+
+main section .container .banner-comic .content-banner-comic .card-banner-comic img {
+  width: 30px;
 }
 

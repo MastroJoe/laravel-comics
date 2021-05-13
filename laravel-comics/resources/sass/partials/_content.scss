@@ -1,49 +1,277 @@
+// main home
 main {
+  .bg-gray {
   background-color: $color-secondary;
-  .section {
-  }
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    .card {
-      width: calc(100% / 6 - 20px);
-      margin: 0 10px;
-      a {
-        .cover {
-          height: 200px;
-          overflow: hidden;
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      .card {
+        width: calc(100% / 6 - 20px);
+        margin: 0 10px;
+        a {
+          .cover {
+            height: 200px;
+            overflow: hidden;
+            width: fit-content;
+          }
+        }
+        .title {
+          a {
+            text-align: center;
+            color: $color-white;
+            font-size: 15px;
+          }
+          a:hover {
+            color: $color-primary;
+          }
         }
       }
-      .title {
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      .button1 {
+        color: $color-white;
         a {
-          text-align: center;
-          color: $color-white;
+          color: #ffffff;
+          font-weight: bold;
           font-size: 15px;
         }
-        a:hover {
-          color: $color-primary;
+      }
+      .button1:hover {
+        background-color: $color-white;
+        color: $color-primary;
+        a {
+          color:$color-primary;
         }
       }
     }
   }
-  .button-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    .button1 {
-      color: $color-white;
-      a {
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 15px;
+
+
+
+  // main single
+
+  section {
+    .container {
+      .thumb {
+        position: relative;
+        .content-thumb {
+          position: absolute;
+          top: -260px;
+          img {
+            width: 220px;
+          }
+        }
       }
     }
-    .button1:hover {
-      background-color: $color-white;
-      color: $color-primary;
-      a {
-        color:$color-primary;
+  }
+
+  section {
+    background-color: $color-white;
+    .bg-blue {
+      height: 100px;
+      background-color: $color-primary;
+      .banner {
+        .content-banner {
+          ul {
+            list-style: none;
+            @include flex-center-between ;
+            li {
+              @include flex-center;
+              color: $color-white;
+              text-transform: uppercase;
+              padding: 40px 0;
+              &:nth-child(4) {
+                img {
+                  width: 32px;
+                }
+              }
+              img {
+                width: 40px;
+                padding-right: 10px;
+              }
+              h4 {
+                font-size: 12px;
+                font-weight: 200;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container {
+      .description {
+        .info-description {
+          @include flex-center;
+          margin: 25px 0;
+          .content-left {
+            padding-right: 20px;
+            .title {
+              h1 {
+                font-size: 27px;
+                font-weight: bold;
+                margin: 10px 0;
+              }
+            }
+            .banner {
+              background-color: green;
+              @include flex-center-between ;
+              padding: 10px 20px;
+              .price {
+                span {
+                  color: $color-white;
+                  &:first-child {
+                    font-weight: lighter;
+                  }
+                }
+              }
+              .availability {
+                span {
+                  color: $color-white;
+
+                  &:first-child {
+                    text-transform: uppercase;
+                      padding-right: 20px;
+                  }
+                }
+              }
+            }
+            .description {
+              padding: 15px 0;
+              p {
+                color: $color-secondary;
+                opacity: 0.8;
+              }
+            }
+          }
+          .content-right {
+            .advertisement {
+              h5 {
+                text-align: right;
+                color: $color-secondary;
+              }
+              .img-advertisement {
+                img {
+                  width: 250px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container {
+      .info-comic {
+        padding-bottom: 70px;
+        .content-info-comic {
+          @include flex-start-between;
+          .left-info-comic {
+            width: 45%;
+            padding-right: 10px;
+            h4 {
+              font-size: 20px;
+              padding: 10px 0;
+              border-bottom: 1px solid $color-lightergrey;
+            }
+            .specific-info {
+              .art-info {
+                padding: 10px 0;
+                border-bottom: 1px solid $color-lightergrey;
+                span {
+                  &.title{
+
+                  }
+                }
+              }
+              .written-info {
+                padding: 10px 0;
+                border-bottom: 1px solid $color-lightergrey;
+                span {
+                  &.title {
+
+                  }
+                }
+              }
+            }
+          }
+          .right-info-comic {
+            width: 45%;
+            padding-left: 10px;
+            h4 {
+              font-size: 20px;
+              padding: 10px 0;
+              border-bottom: 1px solid $color-lightergrey;
+            }
+            .specific-info {
+              .series {
+                padding: 10px 0;
+                border-bottom: 1px solid $color-lightergrey;
+                p {
+                  &.title {
+
+                  }
+                }
+                span {
+
+                }
+              }
+              .price {
+                padding: 10px 0;
+                border-bottom: 1px solid $color-lightergrey;
+                p {
+                  &.title {
+
+                  }
+                }
+                span {
+
+                }
+              }
+              .date {
+                padding: 10px 0;
+                border-bottom: 1px solid $color-lightergrey;
+                p {
+                  &.title {
+
+                  }
+                }
+                span {
+
+                }
+              }
+            }
+          }
+        }
+      }
+      .banner-comic {
+        .content-banner-comic {
+          @include flex-center;
+          .card-banner-comic {
+            width: calc(100% / 4);
+            height: 40px;
+            @include flex-start-between;
+            border-left: 1px solid $color-lightergrey;
+              &:last-child {
+                border-right: 1px solid $color-lightergrey;
+              }
+            span {
+              text-transform: uppercase;
+              color: $color-secondary;
+            }
+            img {
+              width: 30px;
+            }
+          }
+        }
       }
     }
   }
