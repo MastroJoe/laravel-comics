@@ -23,7 +23,7 @@ li {
   list-style: none;
 }
 
-.container {
+.container-center {
   width: 70%;
   margin: 0 auto;
 }
@@ -39,6 +39,7 @@ li {
 .card {
   position: unset;
   border: 0;
+  background-color: transparent;
 }
 
 .small-img {
@@ -309,16 +310,16 @@ header .header-top {
   background-color: #0282f9;
 }
 
-header .header-top .container {
+header .header-top .container-links {
   height: 100%;
 }
 
-header .header-top .container .links {
+header .header-top .container-links .links {
   display: flex;
   justify-content: flex-end;
 }
 
-header .header-top .container .links li a {
+header .header-top .container-links .links li a {
   text-align: center;
   color: #ffffff;
   font-size: 12px;
@@ -329,62 +330,69 @@ header .header-bottom {
   background-color: #ffffff;
 }
 
-header .header-bottom .container {
+header .header-bottom .menu {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .header-bottom .container .logo {
+header .header-bottom .menu .logo {
   width: 80px;
   height: 80px;
 }
 
-header .header-bottom .container .logo img {
+header .header-bottom .menu .logo img {
   width: 100%;
   cursor: pointer;
 }
 
-header .header-bottom .container .navbar .link {
-  padding: 0 9px;
+header .header-bottom .menu .navbar .link {
+  padding: 0 20px;
   font-weight: bold;
 }
 
-header .header-bottom .container .navbar .link a {
+header .header-bottom .menu .navbar .link a {
   color: #464646;
 }
 
-header .header-bottom .container .search {
+header .header-bottom .menu .search {
   border-bottom: 2px solid;
   border-color: #0282f9;
 }
 
-header .header-bottom .container .search input {
+header .header-bottom .menu .search input {
   width: 110px;
   text-align: right;
   outline: none;
 }
 
-header .header-bottom .container .search i {
+header .header-bottom .menu .search i {
   cursor: pointer;
 }
 
 header .jumbo {
   height: 400px;
+  background-repeat: no-repeat;
 }
 
 main {
-  margin-top: 150px;
+  background-color: #464646;
 }
 
-main .title .card-container {
+main .card-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-main .title .card-container .card {
+main .card-container .card {
   width: calc(100% / 6 - 20px);
   margin: 0 10px;
+}
+
+main .card-container .card .title a {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
 }
 

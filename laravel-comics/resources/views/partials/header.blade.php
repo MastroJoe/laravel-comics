@@ -1,7 +1,7 @@
 <header class="container-fluid">
   <div class="header-top container-fluid">
     <!-- due link sulla destra -->
-    <div class="container">
+    <div class="container-center container-links">
       <ul class="links">
         <li class="upper pl-50"><a href="#">dc power visa</a></li>
         <li class="upper pl-50"><a href="#">additional dc sites</a></li>
@@ -10,7 +10,7 @@
   </div>
   <!-- menu navbar con logo e ricerca-->
   <div class="header-bottom container-fluid">
-    <div class="container">
+    <div class="menu container-center">
       <!-- logo -->
       <div class="logo">
         <img src="/images/dc-logo.png" alt="logo">

@@ -2,7 +2,7 @@ header {
   .header-top {
     height: 30px;
     background-color: $color-primary;
-    .container {
+    .container-links {
       height: 100%;
       .links {
         display: flex;
@@ -20,7 +20,7 @@ header {
   .header-bottom {
     height: 115px;
     background-color: $color-white;
-    .container {
+    .menu {
       height: 100%;
       @include flex-center-between;
       .logo {
@@ -33,7 +33,7 @@ header {
       }
       .navbar {
         .link {
-          padding: 0 9px;
+          padding: 0 20px;
           font-weight: bold;
           a {
             color: $color-secondary;
@@ -56,6 +56,6 @@ header {
   }
   .jumbo {
     height: 400px;
-
+    background-repeat: no-repeat;
   }
 }
