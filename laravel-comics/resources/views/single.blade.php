@@ -56,13 +56,13 @@
               <div class="art-info">
                 <p class="title">Art by:</p>
                 @foreach ($comic['artists'] as $single)
-                <span><a href="">{{$single}},</a></span>
+                <span><a href="">{{ $single }},</a></span>
                 @endforeach
               </div>
               <div class="written-info">
                 <p class="title">Written by:</p>
                 @foreach ($comic['writers'] as $single)
-                <span><a href="">{{$single}},</a></span>
+                <span><a href="">{{ $single }},</a></span>
                 @endforeach
               </div>
             </div>
@@ -72,15 +72,15 @@
             <div class="specific-info">
               <div class="series">
                 <p class="title">Series:</p>
-                <span><a href="">{{$comic['series']}}</a></span>
+                <span><a href="">{{ $comic['series'] }}</a></span>
               </div>
               <div class="price">
                 <p class="title">U.S. Price:</p>
-                <span>{{$comic['price']}}</span>
+                <span>{{ $comic['price'] }}</span>
               </div>
               <div class="date">
                 <p class="title">On Sale Date:</p>
-                <span>{{$comic['sale_date']}}</span>
+                <span>{{ $comic['sale_date'] }}</span>
               </div>
             </div>
           </div>
@@ -90,19 +90,19 @@
         <div class="content-banner-comic">
           <div class="card-banner-comic">
             <span>Digital comics</span>
-            <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="">
+            <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="">
           </div>
           <div class="card-banner-comic">
             <span>Shop DC</span>
-            <img src="{{ asset('img/buy-comics-subscriptions.png') }}" alt="">
+            <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="">
           </div>
           <div class="card-banner-comic">
             <span>Comic shop locator</span>
-            <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="">
+            <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="">
           </div>
           <div class="card-banner-comic">
             <span>Subscriptions</span>
-            <img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="">
+            <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="">
           </div>
         </div>
       </div>
