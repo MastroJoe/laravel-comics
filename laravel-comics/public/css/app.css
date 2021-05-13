@@ -46,6 +46,20 @@ li {
   height: 120px;
 }
 
+.button {
+  background-color: #0282f9;
+  border: none;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 .upper {
   text-transform: uppercase;
 }
@@ -235,6 +249,10 @@ hr {
   padding-top: 40px;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .mlr-5 {
   margin-left: 5px;
   margin-right: 5px;
@@ -356,6 +374,10 @@ header .header-bottom .menu .navbar .link a {
   color: #464646;
 }
 
+header .header-bottom .menu .navbar .link a:hover {
+  color: #0282f9;
+}
+
 header .header-bottom .menu .search {
   border-bottom: 2px solid;
   border-color: #0282f9;
@@ -371,6 +393,10 @@ header .header-bottom .menu .search i {
   cursor: pointer;
 }
 
+header .header-bottom .menu .search i:hover {
+  color: #0282f9;
+}
+
 header .jumbo {
   height: 400px;
   background-repeat: no-repeat;
@@ -383,6 +409,7 @@ main {
 main .card-container {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 main .card-container .card {
@@ -390,9 +417,43 @@ main .card-container .card {
   margin: 0 10px;
 }
 
+main .card-container .card .cover {
+  height: 200px;
+  overflow: hidden;
+}
+
 main .card-container .card .title a {
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+main .card-container .card .title a:hover {
+  color: #0282f9;
+}
+
+main .button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+main .button-container .button1 {
+  color: #ffffff;
+}
+
+main .button-container .button1 a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+main .button-container .button1:hover {
+  background-color: #ffffff;
+  color: #0282f9;
+}
+
+main .button-container .button1:hover a {
+  color: #0282f9;
 }
 

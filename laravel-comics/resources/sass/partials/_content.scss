@@ -5,17 +5,43 @@ main {
   .card-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     .card {
       width: calc(100% / 6 - 20px);
       margin: 0 10px;
       .cover {
+        height: 200px;
+        overflow: hidden;
       }
       .title {
         a {
           text-align: center;
           color: $color-white;
-          font-size: 20px;
+          font-size: 15px;
         }
+        a:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    .button1 {
+      color: $color-white;
+      a {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+    .button1:hover {
+      background-color: $color-white;
+      color: $color-primary;
+      a {
+        color:$color-primary;
       }
     }
   }

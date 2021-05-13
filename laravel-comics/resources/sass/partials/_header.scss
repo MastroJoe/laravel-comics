@@ -38,6 +38,9 @@ header {
           a {
             color: $color-secondary;
           }
+          a:hover {
+            color: $color-primary;
+          }
         }
       }
       .search {
@@ -50,6 +53,9 @@ header {
         }
         i {
           cursor: pointer;
+        }
+        i:hover {
+          color: $color-primary;
         }
       }
     }

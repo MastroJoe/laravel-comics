@@ -10,11 +10,15 @@
   <div class="container-center card-container">
     <!-- stampo tutte le cards con foreach -->
     @foreach ($comics as $comic)
-    <div class="card">
+    <div class="card pt-50">
       <img class="cover" src="{{ $comic['thumb'] }}" alt="thumb">
-      <h4 class="upper title"><a href="#">{{ $comic['series'] }}</a></h4>
+      <h4 class="upper title pt-20"><a href="#">{{ $comic['series'] }}</a></h4>
     </div>
     @endforeach
+  </div>
+  <!-- button -->
+  <div class="button-container container-fluid">
+    <button class="button button1"><a class="upper" href="#">load more</a></button>
   </div>
 </main>
 @endsection
