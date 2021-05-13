@@ -3,7 +3,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ li {
 }
 
 .container {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -306,7 +306,7 @@ hr {
 
 header .header-top {
   height: 30px;
-  background-color: #409ad3;
+  background-color: #0282f9;
 }
 
 header .header-top .container {
@@ -345,11 +345,12 @@ header .header-bottom .container .navbar .link {
 }
 
 header .header-bottom .container .navbar .link a {
-  color: #505050;
+  color: #464646;
 }
 
 header .header-bottom .container .search input {
   width: 150px;
+  text-align: right;
 }
 
 header .header-bottom .container .search i {
@@ -358,5 +359,15 @@ header .header-bottom .container .search i {
 
 main {
   margin-top: 150px;
+}
+
+main .title .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .title .card-container .card {
+  width: calc(100% / 6 - 20px);
+  margin: 0 10px;
 }
 

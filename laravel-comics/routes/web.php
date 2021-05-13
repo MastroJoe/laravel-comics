@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $database = config('comics');
-    return view('home')->with('comics', $database);
+    return view('home')->with('comics', config('comics'));
 })->name('home');
+
+// pagina detail comics
+Route::get('/single/{id}', function () {
+    return view('single')
+})->name('detail');

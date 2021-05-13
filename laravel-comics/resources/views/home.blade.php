@@ -2,22 +2,18 @@
 
 @section('main')
 <main class="container-fluid">
-  <!-- jumbo -->
-  <div class="jumbo container-fluid">
-    <img src="" alt="">
-  </div>
   <!-- title -->
   <div class="title">
 
   </div>
   <!-- card section -->
-  <div class="container-fluid">
-    <div class="container card-container">
-      <div class="card">
-        <img src="" alt="">
-        <h3></h3>
-      </div>
+  <div class="container card-container">
+    @foreach ($comics as $comic)
+    <div class="card">
+      <img src="{{ $comic['thumb'] }}" alt="thumb">
+      <h4 class="upper">{{ $comic['series'] }}</h4>
     </div>
+    @endforeach
   </div>
 </main>
 @endsection

@@ -1,3 +1,13 @@
 main {
   margin-top: 150px;
+  .title {
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      .card {
+        width: calc(100% / 6 - 20px);
+        margin: 0 10px;
+      }
+    }
+  }
 }
