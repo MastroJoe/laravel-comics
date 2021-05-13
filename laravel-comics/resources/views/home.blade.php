@@ -8,6 +8,7 @@
   </div>
   <!-- card section -->
   <div class="container card-container">
+    <!-- stampo tutte le cards con foreach -->
     @foreach ($comics as $comic)
     <div class="card">
       <img src="{{ $comic['thumb'] }}" alt="thumb">

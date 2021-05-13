@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 // pagina detail comics
 Route::get('/single/{id}', function () {
-    return view('single')
+    return view('single');
 })->name('detail');
