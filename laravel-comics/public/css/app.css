@@ -325,7 +325,7 @@ header .header-top .container .links li a {
 }
 
 header .header-bottom {
-  height: 120px;
+  height: 115px;
   background-color: #ffffff;
 }
 
@@ -368,6 +368,10 @@ header .header-bottom .container .search input {
 
 header .header-bottom .container .search i {
   cursor: pointer;
+}
+
+header .jumbo {
+  height: 400px;
 }
 
 main {

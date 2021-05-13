@@ -4,7 +4,7 @@
 <main class="container-fluid">
   <!-- title section -->
   <div class="title">
-    <h1 class="upper">current series</h1>
+    <h1 class="upper"></h1>
   </div>
   <!-- card section -->
   <div class="container card-container">
