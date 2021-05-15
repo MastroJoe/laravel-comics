@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="logo-container">
-      <img src="/images/dc-logo-bg.jpg" alt="logo">
+      <img src="/images/dc-logo-bg.png" alt="logo">
     </div>
   </div>
   <div class="footer-bottom container-fluid">

@@ -4,6 +4,34 @@ footer {
   background-size: cover;
   .footer-top {
     height: 400px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .link-list-container {
+      .link-list {
+        .list {
+          li {
+            color: $color-lightergrey;
+            h1 {
+              color: $color-white;
+            }
+          }
+        }
+      }
+      .cookies {
+        p {
+          color: $color-lightergrey;
+          a {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+    .logo-container {
+      img {
+
+      }
+    }
   }
   .footer-bottom {
     height: 100px;
@@ -33,6 +61,13 @@ footer {
           font-size: 26px;
           font-weight: 300;
           color: $color-primary;
+        }
+      }
+      .social {
+        a {
+          img {
+            opacity: 0.6;
+          }
         }
       }
     }

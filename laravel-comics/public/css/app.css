@@ -588,17 +588,17 @@ main section .container .info-comic .content-info-comic .left-info-comic {
 main section .container .info-comic .content-info-comic .left-info-comic h4 {
   font-size: 20px;
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .left-info-comic .specific-info .art-info {
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .left-info-comic .specific-info .written-info {
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .right-info-comic {
@@ -609,22 +609,22 @@ main section .container .info-comic .content-info-comic .right-info-comic {
 main section .container .info-comic .content-info-comic .right-info-comic h4 {
   font-size: 20px;
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .right-info-comic .specific-info .series {
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .right-info-comic .specific-info .price {
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .info-comic .content-info-comic .right-info-comic .specific-info .date {
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e6;
+  border-bottom: 1px solid #797979;
 }
 
 main section .container .banner-comic .content-banner-comic {
@@ -638,11 +638,11 @@ main section .container .banner-comic .content-banner-comic .card-banner-comic {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-left: 1px solid #eae8e6;
+  border-left: 1px solid #797979;
 }
 
 main section .container .banner-comic .content-banner-comic .card-banner-comic:last-child {
-  border-right: 1px solid #eae8e6;
+  border-right: 1px solid #797979;
 }
 
 main section .container .banner-comic .content-banner-comic .card-banner-comic span {
@@ -661,6 +661,25 @@ footer {
 
 footer .footer-top {
   height: 400px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+footer .footer-top .link-list-container .link-list .list li {
+  color: #797979;
+}
+
+footer .footer-top .link-list-container .link-list .list li h1 {
+  color: #ffffff;
+}
+
+footer .footer-top .link-list-container .cookies p {
+  color: #797979;
+}
+
+footer .footer-top .link-list-container .cookies p a {
+  color: #0282F9;
 }
 
 footer .footer-bottom {
@@ -695,5 +714,9 @@ footer .footer-bottom .social-container .title h1 {
   font-size: 26px;
   font-weight: 300;
   color: #0282F9;
+}
+
+footer .footer-bottom .social-container .social a img {
+  opacity: 0.6;
 }
 
