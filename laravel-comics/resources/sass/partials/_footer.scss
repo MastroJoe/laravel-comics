@@ -4,16 +4,20 @@ footer {
   background-size: cover;
   .footer-top {
     height: 400px;
-    display: flex;
-    align-items: center;
+    @include flex-center-between;
     overflow: hidden;
     .link-list-container {
       .link-list {
+        display: flex;
+        justify-content: space-between;
         .list {
+
           li {
             color: $color-lightergrey;
+            font-size: 13px;
             h1 {
               color: $color-white;
+              font-size: 24px;
             }
           }
         }
@@ -21,8 +25,10 @@ footer {
       .cookies {
         p {
           color: $color-lightergrey;
+          font-size: 13px;
           a {
             color: $color-primary;
+            font-size: 13px;
           }
         }
       }
@@ -36,37 +42,40 @@ footer {
   .footer-bottom {
     height: 100px;
     background-color: $color-secondary;
-    .button-container {
-      display: flex;
-      justify-content: center;
-      padding: 20px 0;
-      .button2 {
-        color: $color-white;
-        background-color: transparent;
-        border: 2px solid $color-primary;
-        padding: 10px 5px;
-        a {
+    .flex {
+      @include flex-center-between;
+      .button-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        .button2 {
           color: $color-white;
-          font-weight: bold;
-          font-size: 15px;
+          background-color: transparent;
+          border: 2px solid $color-primary;
+          padding: 10px 7px;
+          a {
+            color: $color-white;
+            font-weight: bold;
+            font-size: 15px;
+          }
+        }
+        .button2:hover {
+          background-color: $color-primary;
         }
       }
-      .button2:hover {
-        background-color: $color-primary;
-      }
-    }
-    .social-container {
-      .title {
-        h1 {
-          font-size: 26px;
-          font-weight: 300;
-          color: $color-primary;
+      .social-container {
+        display: flex;
+        .title {
+          h1 {
+            font-size: 24px;
+            color: $color-primary;
+          }
         }
-      }
-      .social {
-        a {
-          img {
-            opacity: 0.6;
+        .social {
+          a {
+            img {
+              opacity: 0.6;
+            }
           }
         }
       }

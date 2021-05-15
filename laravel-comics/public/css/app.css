@@ -662,24 +662,34 @@ footer {
 footer .footer-top {
   height: 400px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   overflow: hidden;
 }
 
+footer .footer-top .link-list-container .link-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer .footer-top .link-list-container .link-list .list li {
   color: #797979;
+  font-size: 13px;
 }
 
 footer .footer-top .link-list-container .link-list .list li h1 {
   color: #ffffff;
+  font-size: 24px;
 }
 
 footer .footer-top .link-list-container .cookies p {
   color: #797979;
+  font-size: 13px;
 }
 
 footer .footer-top .link-list-container .cookies p a {
   color: #0282F9;
+  font-size: 13px;
 }
 
 footer .footer-bottom {
@@ -687,36 +697,45 @@ footer .footer-bottom {
   background-color: #303030;
 }
 
-footer .footer-bottom .button-container {
+footer .footer-bottom .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom .flex .button-container {
   display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 
-footer .footer-bottom .button-container .button2 {
+footer .footer-bottom .flex .button-container .button2 {
   color: #ffffff;
   background-color: transparent;
   border: 2px solid #0282F9;
-  padding: 10px 5px;
+  padding: 10px 7px;
 }
 
-footer .footer-bottom .button-container .button2 a {
+footer .footer-bottom .flex .button-container .button2 a {
   color: #ffffff;
   font-weight: bold;
   font-size: 15px;
 }
 
-footer .footer-bottom .button-container .button2:hover {
+footer .footer-bottom .flex .button-container .button2:hover {
   background-color: #0282F9;
 }
 
-footer .footer-bottom .social-container .title h1 {
-  font-size: 26px;
-  font-weight: 300;
+footer .footer-bottom .flex .social-container {
+  display: flex;
+}
+
+footer .footer-bottom .flex .social-container .title h1 {
+  font-size: 24px;
   color: #0282F9;
 }
 
-footer .footer-bottom .social-container .social a img {
+footer .footer-bottom .flex .social-container .social a img {
   opacity: 0.6;
 }
 
