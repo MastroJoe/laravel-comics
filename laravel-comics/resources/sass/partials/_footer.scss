@@ -1,3 +1,40 @@
 footer {
-  
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .footer-top {
+    height: 400px;
+  }
+  .footer-bottom {
+    height: 100px;
+    background-color: $color-secondary;
+    .button-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      .button2 {
+        color: $color-white;
+        background-color: transparent;
+        border: 2px solid $color-primary;
+        padding: 10px 5px;
+        a {
+          color: $color-white;
+          font-weight: bold;
+          font-size: 15px;
+        }
+      }
+      .button2:hover {
+        background-color: $color-primary;
+      }
+    }
+    .social-container {
+      .title {
+        h1 {
+          font-size: 26px;
+          font-weight: 300;
+          color: $color-primary;
+        }
+      }
+    }
+  }
 }

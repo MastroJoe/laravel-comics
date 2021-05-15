@@ -13,7 +13,9 @@
     <div class="menu container-center">
       <!-- logo -->
       <div class="logo">
-        <img src="/images/dc-logo.png" alt="logo">
+        <a href="/">
+          <img src="/images/dc-logo.png" alt="logo" title="Home">
+        </a>
       </div>
       <!-- navbar menu -->
       <ul class="navbar">

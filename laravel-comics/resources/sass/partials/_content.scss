@@ -1,7 +1,7 @@
 // main home
 main {
   .bg-gray {
-  background-color: $color-secondary;
+    background-color: $color-secondary;
     .card-container {
       display: flex;
       flex-wrap: wrap;
@@ -264,7 +264,6 @@ main {
                 border-right: 1px solid $color-lightergrey;
               }
             span {
-              text-transform: uppercase;
               color: $color-secondary;
             }
             img {

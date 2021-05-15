@@ -47,7 +47,7 @@ li {
 }
 
 .button {
-  background-color: #0282f9;
+  background-color: #0282F9;
   border: none;
   color: white;
   padding: 10px 55px;
@@ -325,7 +325,7 @@ hr {
 
 header .header-top {
   height: 30px;
-  background-color: #0282f9;
+  background-color: #0282F9;
 }
 
 header .header-top .container-links {
@@ -366,21 +366,21 @@ header .header-bottom .menu .logo img {
 }
 
 header .header-bottom .menu .navbar .link {
-  padding: 0 20px;
+  padding: 0 15px;
   font-weight: bold;
 }
 
 header .header-bottom .menu .navbar .link a {
-  color: #464646;
+  color: #303030;
 }
 
 header .header-bottom .menu .navbar .link a:hover {
-  color: #0282f9;
+  color: #0282F9;
 }
 
 header .header-bottom .menu .search {
   border-bottom: 2px solid;
-  border-color: #0282f9;
+  border-color: #0282F9;
 }
 
 header .header-bottom .menu .search input {
@@ -394,7 +394,7 @@ header .header-bottom .menu .search i {
 }
 
 header .header-bottom .menu .search i:hover {
-  color: #0282f9;
+  color: #0282F9;
 }
 
 header .jumbo {
@@ -403,7 +403,7 @@ header .jumbo {
 }
 
 main .bg-gray {
-  background-color: #464646;
+  background-color: #303030;
 }
 
 main .bg-gray .card-container {
@@ -432,7 +432,7 @@ main .bg-gray .card-container .card .title a {
 }
 
 main .bg-gray .card-container .card .title a:hover {
-  color: #0282f9;
+  color: #0282F9;
 }
 
 main .bg-gray .button-container {
@@ -453,11 +453,11 @@ main .bg-gray .button-container .button1 a {
 
 main .bg-gray .button-container .button1:hover {
   background-color: #ffffff;
-  color: #0282f9;
+  color: #0282F9;
 }
 
 main .bg-gray .button-container .button1:hover a {
-  color: #0282f9;
+  color: #0282F9;
 }
 
 main section .container .thumb {
@@ -479,7 +479,7 @@ main section {
 
 main section .bg-blue {
   height: 100px;
-  background-color: #0282f9;
+  background-color: #0282F9;
 }
 
 main section .bg-blue .banner .content-banner ul {
@@ -557,13 +557,13 @@ main section .container .description .info-description .content-left .descriptio
 }
 
 main section .container .description .info-description .content-left .description p {
-  color: #464646;
+  color: #303030;
   opacity: 0.8;
 }
 
 main section .container .description .info-description .content-right .advertisement h5 {
   text-align: right;
-  color: #464646;
+  color: #303030;
 }
 
 main section .container .description .info-description .content-right .advertisement .img-advertisement img {
@@ -646,11 +646,54 @@ main section .container .banner-comic .content-banner-comic .card-banner-comic:l
 }
 
 main section .container .banner-comic .content-banner-comic .card-banner-comic span {
-  text-transform: uppercase;
-  color: #464646;
+  color: #303030;
 }
 
 main section .container .banner-comic .content-banner-comic .card-banner-comic img {
   width: 30px;
+}
+
+footer {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .footer-top {
+  height: 400px;
+}
+
+footer .footer-bottom {
+  height: 100px;
+  background-color: #303030;
+}
+
+footer .footer-bottom .button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+footer .footer-bottom .button-container .button2 {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #0282F9;
+  padding: 10px 5px;
+}
+
+footer .footer-bottom .button-container .button2 a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+footer .footer-bottom .button-container .button2:hover {
+  background-color: #0282F9;
+}
+
+footer .footer-bottom .social-container .title h1 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #0282F9;
 }
 

@@ -93,7 +93,7 @@
             <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="">
           </div>
           <div class="card-banner-comic">
-            <span>Shop DC</span>
+            <span class="upper">Shop DC</span>
             <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="">
           </div>
           <div class="card-banner-comic">

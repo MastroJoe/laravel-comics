@@ -21,7 +21,9 @@
     </div>
     <!-- button -->
     <div class="button-container container-fluid">
-      <button class="button button1"><a class="upper" href="#">load more</a></button>
+      <button class="button button1">
+        <a class="upper" href="#">load more</a>
+      </button>
     </div>
   </section>
 </main>
